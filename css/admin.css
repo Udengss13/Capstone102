@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+h3{
+    color: #ffffff;
+    font-style: 'Gothic A1', sans-serif;
+}
+.d-flexs{
+    background: #02405f;
+}
+.nav-bar{
+    background:  #9FBACD;
+    border-bottom: 2px solid white;
+    
+}
+.navbar-brand {
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+.nav-item{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px rgba(49, 44, 44, 0.767);
+}
+/* .nav-item:hover {
+    
+    background-color: rgb(165, 165, 159);
+    
+  }
+   */
+
+    /* unvisited link */
+    a:link {
+    color: rgb(32, 33, 32);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(128, 133, 128);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+.nav-link dropdown-toggle{
+    background-color: rgb(156, 161, 164);
+}
+.nav-link:hover{
+  margin-left: 1rem;;
+}
+.ms-1{
+    border-block: 50px;
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    color: white
+  }
+
+.dropdown-item{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px rgba(49, 44, 44, 0.767);
+}
+.fs-4{
+    color: rgb(255, 247, 247)
+}
+.bg-button{
+    background:#EA6D52;
+  }
+
+  /* modal Bdoy */
+  .modal-bod{
+    background:  #9FBACD;
+  }

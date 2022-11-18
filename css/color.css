@@ -1,0 +1,185 @@
+
+/*Background Color*/
+.nav_color{
+  background-color: #1a497a !important;
+}
+.bg_nav_menu{
+  background-color: #00a841 !important;
+}
+.bg-light-green{
+  background-color: #A1F083;
+}
+.bg-grey{
+  background-color: #8a8a8a;
+}
+.bg-yellow{
+  background-color: #00a841;
+}
+.bg-white{
+  background-color: #162739;
+}
+.cb{
+  background-color: #214366ec !important;
+}
+.div_background_light{
+  background-color: #03305d !important;
+}
+.div_background_dark{
+  background-color: #0a131c !important;
+}
+.div_background_green{
+  background-color: #00a841 !important;
+}
+.footer_background{
+  background-color: #04090d !important;
+}
+
+.nav_outline{
+  border-bottom: 2px solid #00a841;
+}
+.div_outline{
+  border-bottom: 2px solid #00a841;
+  border-top: 2px solid #00a841;
+}
+.footer_outline{
+  border-top: 2px solid #00a841;
+}
+
+/*Text Color*/
+.c-white{
+  color: white !important;
+}
+.c-dark{
+  color: #0a131c !important;
+}
+.c-red{
+  color: red !important;
+}
+.c-light{
+  color: #162739 !important;
+}
+.c-green{
+  color: #00a841 !important;
+}
+
+
+
+
+
+.paddingx-0{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/*Text Style*/
+.login-title{
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+/*Tab Colour*/
+.nav-pills .nav-item .nav-link.active {
+  color: white !important;
+  background-color: #bac2bd;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.btn {
+
+  background-color:  #d1d1d1;
+
+  border: none;
+
+  color: white;
+
+  padding: 12px 16px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+.btn:hover {
+
+  background-color: RoyalBlue;
+
+  color: darkred;
+
+}
+
+.btn1 {
+
+  background-color: rgba(164, 166, 177, 0);
+
+  border: none;
+
+  color: rgb(0, 0, 0);
+
+  padding: 12px 16px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+.btn1:hover {
+
+  background-color: #cdcfcb;
+
+  color: rgb(0, 0, 0);
+
+}
+
+a:link, a:visited {
+  background-color: #ff130200;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}

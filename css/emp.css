@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+body{
+  background:  #9FBACD;
+}
+
+h2{
+  color: #034D73;
+  font-style: 'Gothic A1', sans-serif;
+}
+h1, p{
+  color: #034D73;
+}
+.buttonbg{
+  background: #034D73;
+}
+
+.Box{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+::selection {
+    color: #fff;
+    background: #fff;
+}
+
+body{
+  background:  #9FBACD;
+}
+.logo{
+  width:22%;
+  height:8vh;
+}
+
+.navbar{
+  background:  #9FBACD;
+  border-bottom: 2px solid white;
+  
+}
+ .navbar-brand {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 15px;
+  text-shadow: 2px 2px 2px rgba(49, 44, 44, 0.767);
+}
+.nav-item:hover {
+  background-color: rgb(23, 171, 201);
+  border-radius: 50px;
+}
+
+.nav-link{
+  border-radius: 10px;
+}
+
+/* Login form Employee */
+.container{
+  justify-content: center;
+}
+.container .form {
+    background: rgba(238, 249, 255, 0.942);
+    width: 37%;
+    /* padding: 30px 35px; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container .form form .form-control {
+ 
+    height: 50px;
+    font-size: 15px;
+    
+}
+select, option {
+  width: 550px;
+  height: 40px;
+}
+
+
+
+.container .form form .forget-pass {
+    margin: -15px 0 15px 0;
+}
+
+.container .form form .forget-pass a {
+    font-size: 15px;
+}
+
+.container .form form .button {
+    background: #1c1cb2;
+    color: #fff;
+    font-size: 17px;
+    
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.container .form form .button:hover {
+    background: #5757d1;
+   
+}
+
+.container .form form .link {
+    padding: 5px 0;
+}
+
+.container .form form .link a {
+    color: #6665ee;
+}
+
+.container .login-form form p {
+    font-size: 14px;
+}
+
+.container .row .alert {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 992px) {
+    .dog{
+        display: none;
+    }
+  }

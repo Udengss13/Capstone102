@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  
+}
+body{
+  background:  #9FBACD;
+}
+.logo{
+  width:22%;
+  height:8vh;
+}
+
+.navbar{
+  background:  #9FBACD;
+  border-bottom: 2px solid white;
+  /* height: 100px; */
+}
+ .navbar-brand {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 15px;
+  /* font-weight: bolder; */
+  /* text-shadow: 2px 2px 2px rgba(49, 44, 44, 0.767); */
+}
+.nav-item:hover {
+  background-color: rgb(6, 126, 231);
+  border-radius: 10px;
+}
+
+.nav-link{
+  border-radius: 10px;
+}
+
+.footer-banner {
+  background-color: #2E313A;
+}
+
+
+#imagesec{
+  background: #9FBACD;
+}
+
+ 
+/* QUICKTIPS----------------------------------------------------------------------------- */
+ 
+.vnav-item {
+  background-color: rgba(255, 255, 255, 0.079);
+}
+
+/* Style the tab Login FOrm --------------------------------------------------------------*/
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #278cb4;
+  width: 50%;
+}
+
+/* Button */
+.bg-button{
+  background:#EA6D52;
+}
+.bg-blue{
+  background: #034D73;
+}
+.bg{
+  background:  #9FBACD;
+
+}
+/* .text{
+  ?
+  
+  font-style: 'Gothic A1', sans-serif;
+} */
+
+/* Profile */
+.user-profile:hover{
+  padding: 3px;
+  background-color: #278cb4;
+}
+
+/* .name {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      
+      rgb(112, 153, 195),
+      rgb(112, 153, 195)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+} */
+.name:hover {
+  background-size: 0 6px, 100% 100%;
+}
+.aboutme:hover{
+  background-color: #9FBACD;
+  color:white;
+  border-radius: 10px;
+  
+}
+.icons{
+  color:#EA6D52;
+  
+}
+.icons:hover , .no:hover{
+color: red;
+
+}
+.no{
+  margin-left: 3rem;
+}
+.fa-circle-check, .fa-box, .fa-basket-shopping,.fa-clipboard-list{
+  text-shadow: 0 5px 3px rgb(222, 222, 222);
+}
+
+/* -------------------------------------- */
+.c-blue{
+  color: #034D73;
+}
+.bg-trans{
+  background-color: rgba(238, 249, 255, 0.942);
+}
+.bg-gray{
+  background: rgb(202, 202, 202);
+}
+
+/* Wave Banner STyle */
+* {
+  padding: 0;
+  margin: 0;
+}
+.waveWrapper {
+    position: absolute;
+    height: 745px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin-top: 85px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    z-index: -1;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 20vh);
+    top: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to top, #0099ff 20%, #9FBACD 80%);
+}
+.top {
+    opacity: 0.5;
+    z-index: 15;
+}
+.mid {
+    opacity: 0.75;
+    z-index: 10;
+}
+.bottom {
+    z-index: 5;
+}
+.wave {
+    /* position: absolute; */
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat !important;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveTop {
+    background-size: 50% 100px;
+    animation: wave 3s;
+    animation-delay: 1s;
+}
+/* @keyframes wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1);
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.50);
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1);
+    }
+} */
+.waveMid {
+    background-size: 50% 120px;
+    animation: wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+    animation: wave 15s linear infinite;
+}
+
+/* sddddddddddddddddd */
+
+
+
+/*Css ANNOUNCEMENT-------------------------------------------------------------------------------*/
+.container-width{
+  width:100%;
+  max-width:1150px;
+  margin:0 auto;
+}
+.flex-sect{
+  background-color:white;
+  padding:50px 0;
+  font-family:Helvetica, serif;
+}
+.flex-title{
+  margin-bottom:15px;
+  font-size:2em;
+  text-align:center;
+  font-weight:700;
+  color:#555;
+ /* padding:5px;*/
+}
+.flex-desc{
+  margin-bottom:55px;
+  font-size:1em;
+  color:rgba(0, 0, 0, 0.5);
+  text-align:center;
+  padding:5px;
+}
+.cards{
+  padding:20px 0;
+  display:flex;
+  justify-content:space-around;
+  flex-flow:wrap;
+}
+.card{
+  background-color:white;
+
+  box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  border-radius:2px;
+  transition:all 0.5s ease;
+  font-weight:100;
+  overflow:hidden;
+}
+.card:hover{
+  margin-top:-5px;
+  box-shadow:0 20px 30px 0 rgb(91, 99, 103);
+}
+
+/*Css for About us---------------------------------------------------------------------------------------*/
+.box{
+  margin-top: 50px;
+  border: 2px solid white;
+  padding: 10px;
+}
+
+/*Css for Footer---------------------------------------------------------------------------------------*/
+.text{
+  color: white;
+}
+
+.footer-banner{
+  background-color: #00061a;
+ 
+}
+
+.text h1, .text p{
+  text-align: center;
+
+}
+.follow{
+  font-size: 20px;
+  color: yellow;
+}
+
+/* profile Edit */
+.ff{
+  height: 40px;
+}
